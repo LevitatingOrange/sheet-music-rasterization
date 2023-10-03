@@ -21,3 +21,7 @@ sudo docker run --rm -it -v $(pwd):/home/$USER/docs sheet_music_conv
 ```
 
 This procedure uses sensible defaults, but make sure to look into each script to find ways to reduce file size, optimize quality, as you wish.
+
+
+# TODOS
+* [ ] At github actions so that image is build and available for everyone.
