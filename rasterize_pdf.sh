@@ -18,7 +18,7 @@ outputfile=$3
 echo "Processing ${file} with ${dpi} dpi..."
 
 echo "Separating file by pages to parallelize processing..."
-pdfseparate "$file" $BUILDDIR/input-page%d.pdf
+pdfseparate "$file" $BUILDDIR/input-page%03d.pdf
 
 echo "Converting to JPEG..."
 for pdf_file in $BUILDDIR/*.pdf; do
